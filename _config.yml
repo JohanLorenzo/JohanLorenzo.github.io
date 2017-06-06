@@ -14,9 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Johan's blog
-baseurl: "/blog"
+author:
+  name: Johan Lorenzo
 url: "https://johanlorenzo.github.io"
-github_username:  JohanLorenzo
+baseurl: "/blog"
+github_username: JohanLorenzo
+charset: utf-8
 
 # Build settings
 markdown: kramdown
