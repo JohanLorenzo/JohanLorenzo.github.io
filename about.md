@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi there, and welcome to my blog!
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+I'm Johan Lorenzo. I'm a [Release Engineer](https://wiki.mozilla.org/ReleaseEngineering) at [Mozilla](https://www.mozilla.org/). This blog is meant to:
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+* Share details about what I work on with colleagues and Mozilla's contributors,
+* Keep track of pointers of things I learn along the way.
+
+Want to contact me? You can:
+
+* Drop me an email at `jlorenzo+blog at m dot c` (`m.c` stands for mozilla.com),
+* Ping jlorenzo [on IRC](https://wiki.mozilla.org/IRC).
