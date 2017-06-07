@@ -1,17 +1,16 @@
 ---
 layout: post
-title: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way
+title: "Part 1: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way"
 author: Johan Lorenzo
 date:   2017-06-06 13:25:59 +0000
 tags: releng
 ---
 The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let's see what was already there and how things have changed since version 53.0.
 
-# Summary
 
-This blog post is a part of a series. Checkout the other posts:
+> This blog post is a part of a series. Checkout the other posts:
 
-1. How did the project start?
+> 1. How did the project start?
 1. Presentation of the solution [Coming soon]
 1. 5 things I would have loved knowing about Google Play [Coming soon]
 1. What's next? Want to contribute? & Special thanks [Coming soon]
@@ -47,5 +46,6 @@ The daily frequency was new for Fennec. It led to 2 concerns:
 
 That is why we decided to make APK publication a part of the automated release workflow.
 
+# Presentation of the solution
 
-In [the next post]({{ page.next }}) [Coming soon], see how we architectured the solution.
+See [the next post]({{ page.next }}) [Coming soon].
