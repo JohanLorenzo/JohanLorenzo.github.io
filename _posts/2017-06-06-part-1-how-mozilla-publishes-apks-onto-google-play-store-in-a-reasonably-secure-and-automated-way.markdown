@@ -48,4 +48,4 @@ That is why we decided to make APK publication a part of the automated release w
 
 # Presentation of the solution
 
-See [the next post]({{ page.next }}).
+See [the next post]({{ site.baseurl }}{{ page.next.url }}).
