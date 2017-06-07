@@ -3,7 +3,7 @@ layout: post
 title: How Mozilla publishes APKs onto Google Play Store, in a reasonably secure and automated way
 author: Johan Lorenzo
 date:   2017-06-06 13:25:59 +0000
-categories: releng
+tags: releng
 ---
 The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let's see what was already there and how things have changed since version 53.0.
 
