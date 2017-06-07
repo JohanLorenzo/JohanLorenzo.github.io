@@ -8,10 +8,10 @@ tags: releng
 The Release Engineering team fully-automated the publication of Firefox for Android in version 53.0. Let's see what was already there and how things have changed since version 53.0.
 
 
-> This blog post is a part of a series. Checkout the other posts:
+> This blog post is a part of a serial. Checkout the other posts:
 
 > 1. How did the project start?
-1. Presentation of the solution [Coming soon]
+1. [Presentation of the solution]({{ site.baseurl }}{% post_url 2017-06-07-part-2-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way %})
 1. 5 things I would have loved knowing about Google Play [Coming soon]
 1. What's next? Want to contribute? & Special thanks [Coming soon]
 
@@ -48,4 +48,4 @@ That is why we decided to make APK publication a part of the automated release w
 
 # Presentation of the solution
 
-See [the next post]({{ page.next }}) [Coming soon].
+See [the next post]({{ page.next }}).
