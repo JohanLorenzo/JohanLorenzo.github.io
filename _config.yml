@@ -14,8 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Johan's blog
-author:
-  name: Johan Lorenzo
+author: Johan Lorenzo
+description: Openly shipping things
 url: "https://johanlorenzo.github.io"
 baseurl: "/blog"
 github_username: JohanLorenzo
