@@ -120,3 +120,7 @@ The 3 pieces live on the same Amazon EC2 instance, under the name pushapk_script
 # 5 things I would have loved knowing about Google Play
 
 See the next post [Coming soon].
+
+# Comments
+
+You can read and leave comments on [this Github issue](https://github.com/JohanLorenzo/blog/issues/2).

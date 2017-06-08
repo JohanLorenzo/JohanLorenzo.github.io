@@ -49,3 +49,7 @@ That is why we decided to make APK publication a part of the automated release w
 # Presentation of the solution
 
 See [the next post]({{ site.baseurl }}{{ page.next.url }}).
+
+# Comments
+
+You can read and leave comments on [this Github issue](https://github.com/JohanLorenzo/blog/issues/1).
