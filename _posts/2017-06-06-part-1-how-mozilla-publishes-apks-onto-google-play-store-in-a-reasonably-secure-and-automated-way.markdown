@@ -9,10 +9,10 @@ The Release Engineering team fully-automated the publication of Firefox for Andr
 
 
 > This blog post is a part of a serial. Checkout the other posts:
-
-> 1. How did the project start?
+> 
+> 1. How did the project start? [Here]
 1. [Presentation of the solution]({{ site.baseurl }}{% post_url 2017-06-07-part-2-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way %})
-1. 5 things I would have loved knowing about Google Play [Coming soon]
+1. [5 things I would have loved knowing about Google Play]({{ site.baseurl }}{% post_url 2017-06-12-part-3-how-mozilla-publishes-apks-onto-google-play-store-in-a-reasonably-secure-and-automated-way %})
 1. What's next? Want to contribute? & Special thanks [Coming soon]
 
 # How did the project start?
