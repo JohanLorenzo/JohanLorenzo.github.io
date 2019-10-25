@@ -8,9 +8,9 @@ tags: releng
 
 # The 3-minute-video
 
-<iframe src="https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/preview" width="640" height="360"></iframe>
+<iframe src="https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/preview" width="480" height="270"></iframe>
 
-See the [video there](https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/view), if doesn't display up here.
+See the [video there](https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/view), if it doesn't display up here.
 
 # Context
 
@@ -33,19 +33,19 @@ or by using a higher-level framework: taskgraph.
 The above graph submission options are ordered by complexity. You may not want to start with option 3 immediately. Although, if your CI/CD pipeline deals with multiple platforms, multiple types of tests, and/or multiple types of pipelines, you may want solution 3b. More on this below.
 
 ![Solution 1]({{ site.baseurl }}{% link /images/posts/taskgraph-android/taskcluster-simple.svg %})
-Solution 1
+***Solution 1***
 
 ![Solution 2]({{ site.baseurl }}{% link /images/posts/taskgraph-android/taskcluster-yml.svg %})
-Solution 2
+***Solution 2***
 
 ![Solution 3]({{ site.baseurl }}{% link /images/posts/taskgraph-android/taskcluster-decision-task.svg %})
-Solution 3
+***Solution 3***
 
 ![Solution 3a]({{ site.baseurl }}{% link /images/posts/taskgraph-android/taskcluster-decision-task-custom.svg %})
-Solution 3a: What’s inside the decision task
+***Solution 3a: What’s inside the decision task***
 
 ![Solution 3b]({{ site.baseurl }}{% link /images/posts/taskgraph-android/taskcluster-decision-task-taskgraph.svg %})
-Solution 3b: Inside the decision task
+***Solution 3b: Inside the decision task***
 
 
 Taskgraph was originally built for the most complex project, Firefox itself, and it was strongly tied to it. So, when a simpler project - Firefox Focus - came up a year and a half ago, we - the Development Team and Release Engineering - agreed on going with solution 2 and later on then 3a. Firefox Focus went great and became the base of a lot of Android projects. They have grown quite big since Firefox Focus started. The way CI/CD is configured there has grown on top of a code which wasn't meant to be that big, and which was duplicated across projects.
