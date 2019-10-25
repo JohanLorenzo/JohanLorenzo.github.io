@@ -8,9 +8,9 @@ tags: releng
 
 # The 3-minute-video
 
-<iframe src="https://drive.google.com/file/d/1WnCR6blDtTGr_nAslXi53SQPWJ17OfLq/preview" width="640" height="360"></iframe>
+<iframe src="https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/preview" width="640" height="360"></iframe>
 
-See the [video there](https://drive.google.com/file/d/1WnCR6blDtTGr_nAslXi53SQPWJ17OfLq/view), if doesn't display up here.
+See the [video there](https://drive.google.com/file/d/1_ocYz4fPnJpUlW0hqx3haZ-gEKtWJOd3/view), if doesn't display up here.
 
 # Context
 
@@ -18,7 +18,7 @@ See the [video there](https://drive.google.com/file/d/1WnCR6blDtTGr_nAslXi53SQPW
 
 It’s a fairly common practice to build and test every time someone makes a change in the code. In the industry, we call this process “Continuous Integration” (CI). Another good practice is to automate the deployment of your builds to end-users. This process is called “Continuous Deployment” (CD). There are several CI/CD products on the market. Mozilla has used some of them for years and still uses them in some projects. About 6 years ago, Mozilla needed a CI/CD product that did more than what was available and started Taskcluster. If you’re interested in knowing more about why we made Taskcluster, please let me know in the comments and I’ll write a dedicated post.
 
-Since then, we’ve entirely migrated many Android projects like Firefox[1], Firefox Focus[2], Firefox for Amazon's Fire TV, Android-Components, and the upcoming Firefox Preview to Taskcluster. The rationale for migrating off another CI/CD was usually the following: we want to ensure what we’re shipping to end-users comes from Mozilla, while still providing the development team an easy and consistent way to configure their tasks.
+Since then, we’ve entirely migrated many Android projects like [Firefox](https://play.google.com/store/apps/details?id=org.mozilla.firefox), [Firefox Focus](https://play.google.com/store/apps/details?id=org.mozilla.focus), [Firefox for Amazon's Fire TV](https://www.amazon.com/dp/B078B5YMPD/), [Android-Components](https://mozac.org/), and the upcoming [Firefox Preview](https://play.google.com/store/apps/details?id=org.mozilla.fenix) to Taskcluster. The rationale for migrating off another CI/CD was usually the following: we want to ensure what we’re shipping to end-users comes from Mozilla, while still providing the development team an easy and consistent way to configure their tasks.
 
 
 ## Taskcluster and task definitions
