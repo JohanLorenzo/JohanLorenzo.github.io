@@ -24,10 +24,10 @@ Since then, we’ve entirely migrated many Android projects like [Firefox](https
 ## Taskcluster and task definitions
 
 A task is an arbitrary piece of code that is executed by Taskcluster. We tell Taskcluster to execute a task by submitting some configuration, that we call the “task definition”. A task definition contains data about version control repository it deals with or what commands to run. As your project grows, it will likely need more than a single task to perform all actions. In this case, you need a graph of task definitions. You can submit a graph in different ways:
-either by manually entering each task on https://tools.taskcluster.net/task-creator/,
-by defining them all in a .taskcluster.yml file in your repository https://docs.taskcluster.net/docs/reference/integrations/taskcluster-github/docs/taskcluster-yml-v1
+either by manually entering each task on [the task creator](https://tools.taskcluster.net/task-creator/),
+by defining them all in a [.taskcluster.yml file](https://docs.taskcluster.net/docs/reference/integrations/taskcluster-github/docs/taskcluster-yml-v1) in your repository
 by defining a single task in .taskcluster.yml and letting this task generate the rest of the graph. We call this single task a “decision task”. It can be implemented:
-either by using one of the Taskcluster libraries (the Python one for instance https://pypi.org/project/taskcluster/),
+either by using one of the Taskcluster libraries ([the Python one](https://pypi.org/project/taskcluster/) for instance),
 or by using a higher-level framework: taskgraph.
 
 The above graph submission options are ordered by complexity. You may not want to start with option 3 immediately. Although, if your CI/CD pipeline deals with multiple platforms, multiple types of tests, and/or multiple types of pipelines, you may want solution 3b. More on this below.
@@ -53,7 +53,7 @@ Taskgraph was originally built for the most complex project, Firefox itself, and
 
 ## Taskcluster and people
 
-Moreover, people started to come from our main historical repository https://hg.mozilla.org/mozilla-central (where Firefox for Android is) to our other Android projects. With each project, they had to figure out how things work and Release Engineering has had to be involved in many changes, so we were losing the “provide the development team an easy way to configure their tasks” feature.
+Moreover, people started to come from [our main repository](https://hg.mozilla.org/mozilla-central) (where Firefox for Android is) to our other Android projects. With each project, they had to figure out how things work and Release Engineering has had to be involved in many changes, so we were losing the “provide the development team an easy way to configure their tasks” feature.
 
 
 ## Here enters taskgraph
@@ -149,10 +149,10 @@ Moreover, having taskgraph enables a better release workflow for Firefox Preview
 
 # Further reading
 
-* The official documentation for Firefox: https://firefox-source-docs.mozilla.org/taskcluster/taskcluster/index.html
-* How tos depending on what you want to do: https://firefox-source-docs.mozilla.org/taskcluster/taskcluster/how-tos.html
-* “Task Configuration at Scale”, a video that explains the scaling problems taskgraph solves: https://ahal.ca/casts/2019/task-configuration-at-scale/
-* The Gecko Hacker's Guide to Taskcluster: https://staktrace.com/spout/entry.php?id=870
+* [The official documentation for Firefox](https://firefox-source-docs.mozilla.org/taskcluster/taskcluster/index.html)
+* [How tos depending on what you want to do](https://firefox-source-docs.mozilla.org/taskcluster/taskcluster/how-tos.html)
+* [“Task Configuration at Scale”](https://ahal.ca/casts/2019/task-configuration-at-scale/), a video that explains the scaling problems taskgraph solves
+* [The Gecko Hacker's Guide to Taskcluster](https://staktrace.com/spout/entry.php?id=870)
 
 
 # Need any help?
